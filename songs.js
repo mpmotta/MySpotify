@@ -1,0 +1,67 @@
+const songsData = [
+    // --- PLAYLIST 1: PICADILLY (ID 1) ---
+    { file: "3274296", query: "Blind Melon No Rain", playlistId: 1 },
+    { file: "3276611", query: "Green Day Basket Case", playlistId: 1 },
+    { file: "3289069", query: "Matchbox Twenty Disease", playlistId: 1 },
+    { file: "3289073", query: "Matchbox Twenty Unwell", playlistId: 1 },
+    { file: "3312952", query: "Mike The Mechanics Over My Shoulder", playlistId: 1 },
+    { file: "3286343", query: "New Radicals You Get What You Give", playlistId: 1 },
+    { file: "3286592", query: "Nickelback How You Remind Me", playlistId: 1 },
+    { file: "3290611", query: "OMC How Bizarre", playlistId: 1 },
+    { file: "3298622", query: "Santana The Game of Love", playlistId: 1 },
+    { file: "3298634", query: "Santana Why Don't You & I", playlistId: 1 },
+    { file: "3303681", query: "Spin Doctors Two Princes", playlistId: 1 },
+    { file: "3314981", query: "The Roots The Seed", playlistId: 1 },
+    { file: "3310061", query: "The Strokes Last Nite", playlistId: 1 },
+
+    // --- PLAYLIST 2: ROAD (ID 2) ---
+    { file: "3325671", query: "Hoodoo Gurus Out That Door", playlistId: 2 },
+    { file: "3293521", query: "Patrick Swayze She's Like The Wind", playlistId: 2 },
+    { file: "3279999", query: "Kansas Dust in the Wind", playlistId: 2 },
+    { file: "3301991", query: "Simple Minds Don't You Forget About Me", playlistId: 2 },
+    { file: "3275383", query: "Foreigner I Want to Know What Love Is", playlistId: 2 },
+    { file: "3272991", query: "The Cars Drive", playlistId: 2 },
+    { file: "3273296", query: "Bruce Hornsby The Way It Is", playlistId: 2 },
+    { file: "3278856", query: "INXS Never Tear Us Apart", playlistId: 2 },
+    { file: "3273113", query: "Black Wonderful Life", playlistId: 2 },
+    { file: "3452290", query: "David Coverdale Last Note Of Freedom", playlistId: 2 },
+    { file: "3302216", query: "Robert Plant 29 Palms", playlistId: 2 },
+
+    // --- PLAYLIST 3: WHISKEY (ID 3) ---
+    { file: "3283221", query: "Bonnie Tyler Total Eclipse of the Heart", playlistId: 3 },
+    { file: "3275796", query: "Creed My Sacrifice", playlistId: 3 },
+    { file: "3279321", query: "Kate Bush Wuthering Heights", playlistId: 3 },
+    { file: "3288543", query: "Oasis Stop Crying Your Heart Out", playlistId: 3 },
+    { file: "3292123", query: "Pink Floyd Wish You Were Here", playlistId: 3 },
+    { file: "3307891", query: "Suzanne Vega Luka", playlistId: 3 },
+    { file: "3272211", query: "The Calling Wherever You Will Go", playlistId: 3 },
+    { file: "3274789", query: "The Clash Should I Stay or Should I Go", playlistId: 3 },
+    { file: "3311234", query: "Tracy Chapman Baby Can I Hold You", playlistId: 3 },
+    { file: "3311235", query: "Tracy Chapman Fast Car", playlistId: 3 },
+
+    // --- PLAYLIST 4: SUNNY (ID 4) ---
+    { file: "3283222", query: "Bonnie Tyler Holding Out for a Hero", playlistId: 4 },
+    { file: "3277001", query: "George Harrison Got My Mind Set On You", playlistId: 4 },
+    { file: "3290612", query: "Shaggy Boombastic", playlistId: 4 },
+    { file: "3299999", query: "Midi Maxi Efti Bad Bad Boys", playlistId: 4 },
+    { file: "3279500", query: "Jimmy Cliff I Can See Clearly Now", playlistId: 4 },
+    { file: "3299100", query: "Sheryl Crow D'yer Mak'er", playlistId: 4 },
+    { file: "3279101", query: "John Mellencamp Cherry Bomb", playlistId: 4 },
+    { file: "3279102", query: "John Mellencamp Hurts So Good", playlistId: 4 },
+    { file: "3274100", query: "Billy Idol Mony Mony", playlistId: 4 },
+    { file: "3289500", query: "Midnight Oil Blue Sky Mine", playlistId: 4 },
+    { file: "3315000", query: "Spy vs Spy Clarity of Mind", playlistId: 4 },
+    { file: "3310500", query: "The The Slow Emotion Replay", playlistId: 4 },
+    { file: "3289900", query: "The Hunts Valentina", playlistId: 4 },
+
+// --- PLAYLIST 5: FEMME (ID 5) ---
+    { file: "3274901", query: "Alanis Morissette Head Over Feet", playlistId: 5 },
+    { file: "3273301", query: "Concrete Blonde Joey", playlistId: 5 },
+    { file: "3280501", query: "Divinyls I Touch Myself", playlistId: 5 },
+    { file: "3277801", query: "Joan Osborne One of Us", playlistId: 5 },
+    { file: "3279901", query: "Kim Carnes Bette Davis Eyes", playlistId: 5 },
+    { file: "3289101", query: "Meredith Brooks Bitch", playlistId: 5 },
+    { file: "3290201", query: "Natalie Imbruglia Torn", playlistId: 5 },
+    { file: "3302501", query: "Nelly Furtado Try", playlistId: 5 },
+    { file: "3276801", query: "The Cardigans Lovefool", playlistId: 5 }
+];
