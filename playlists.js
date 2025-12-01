@@ -23,5 +23,11 @@ const playlistsData = [
         id: 5,
         title: "FEMME",
         cover: "assets/femme.jpeg"
+    },
+    {
+        id: 6,
+        title: "Garagem",
+        // Pexels: Instrumentos musicais / Vibe Rock
+        cover: "assets/garage.jpeg"
     }
 ];

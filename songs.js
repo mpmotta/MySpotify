@@ -63,5 +63,21 @@ const songsData = [
     { file: "3289101", query: "Meredith Brooks Bitch", playlistId: 5 },
     { file: "3290201", query: "Natalie Imbruglia Torn", playlistId: 5 },
     { file: "3302501", query: "Nelly Furtado Try", playlistId: 5 },
-    { file: "3276801", query: "The Cardigans Lovefool", playlistId: 5 }
+    { file: "3276801", query: "The Cardigans Lovefool", playlistId: 5 },
+
+    // --- PLAYLIST 6: GARAGEM (ID 6) ---
+    { file: "3350001", query: "Engenheiros do Hawaii Piano Bar", playlistId: 6 },
+    { file: "3350002", query: "Heróis da Resistência Esse Outro Mundo", playlistId: 6 }, 
+    { file: "3350003", query: "Garotos da Rua Eu Já Sei", playlistId: 6 },
+    { file: "3350004", query: "Heróis da Resistência Só Pro Meu Prazer", playlistId: 6 },
+    { file: "3350005", query: "Joe Eutanásia Me Leva Pra Casa", playlistId: 6 },
+    { file: "3350006", query: "Lobao Essa Noite Não", playlistId: 6 },
+    { file: "3350007", query: "Pato Fu Ando Meio Desligado", playlistId: 6 },
+    { file: "3350008", query: "Pitty Na Sua Estante", playlistId: 6 },
+    { file: "3350009", query: "Raimundos A Mais Pedida", playlistId: 6 },
+    { file: "3350010", query: "Reação Em Cadeia Me Odeie", playlistId: 6 },
+    { file: "3350011", query: "Rosa Tattooada Tardes de Outono", playlistId: 6 },
+    { file: "3350012", query: "Tequila Baby Melhor do Que Você Pensa", playlistId: 6 },
+    { file: "3350013", query: "TNT A Irmã do Doctor Robert", playlistId: 6 },
+    { file: "3350014", query: "Vera Loca Borracho y Loco", playlistId: 6 }
 ];

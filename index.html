@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Spotify Clone - Split View</title>
+    <title>Spotify</title>
     
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700;800&display=swap" rel="stylesheet">
     
@@ -20,6 +20,15 @@
         </div>
     </div>
 
+    <div id="end-modal" class="modal-overlay" style="display: none;">
+        <div class="modal-content">
+            <i class="fab fa-spotify" style="font-size: 60px; color: #1db954; margin-bottom: 20px;"></i>
+            <h2>Playlist Encerrada</h2>
+            <p>Você ouviu todas as músicas desta lista.</p>
+            <button class="btn-modal" onclick="location.reload()">Escolher Outra</button>
+        </div>
+    </div>
+
     <div class="app-container" id="app-content">
         
         <aside class="sidebar">
@@ -33,19 +42,12 @@
                     <li onclick="renderHome()" class="active">
                         <i class="fas fa-home"></i> Início
                     </li>
-                    <li onclick="document.getElementById('search-input').focus()">
-                        <i class="fas fa-search"></i> Buscar
-                    </li>
-                    <li style="opacity: 0.7; cursor: not-allowed;">
-                        <i class="fas fa-book"></i> Sua Biblioteca
-                    </li>
                 </ul>
             </nav>
 
             <div class="playlist-label">PLAYLISTS</div>
-            <ul class="playlist-list-sidebar">
-                <li onclick="openPlaylist(1)">Picadilly Hits</li>
-            </ul>
+            <ul class="playlist-list-sidebar" id="sidebar-playlists">
+                </ul>
         </aside>
 
         <main>
@@ -58,15 +60,14 @@
                 <div class="search-wrapper">
                     <i class="fas fa-search search-icon"></i>
                     <input type="text" id="search-input" 
-                           placeholder="O que você quer ouvir? (Enter)" 
+                           placeholder="Pesquisar música" 
                            onkeypress="if(event.key === 'Enter') performSearch()">
                 </div>
                 
                 <div style="flex:1;"></div>
             </header>
 
-            <div id="main-view">
-                </div>
+            <div id="main-view"></div>
         </main>
     </div>
 
