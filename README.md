@@ -38,10 +38,7 @@ Este projeto simula a interface do Spotify (Dark Mode), oferecendo uma experiên
 
 ### Passo a Passo
 
-1.  **Clone o repositório** (ou baixe os arquivos):
-    ```bash
-    git clone [https://github.com/SEU-USUARIO/spotify-clone.git](https://github.com/SEU-USUARIO/spotify-clone.git)
-    ```
+1.  **Clone o repositório** (ou baixe os arquivos)
 
 2.  **Organize os arquivos de áudio:**
     Coloque seus arquivos `.mp3` na pasta `mp3/`. O nome do arquivo deve corresponder ao ID configurado no arquivo `songs.js`.
@@ -62,6 +59,6 @@ const playlistsData = [
     {
         id: 1,
         title: "Nome da Playlist",
-        cover: "url_da_imagem_ou_caminho_local.jpg"
+        cover: "assets/url_da_imagem_ou_caminho_local.jpg"
     }
 ];
