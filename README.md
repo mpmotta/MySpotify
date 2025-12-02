@@ -1,4 +1,5 @@
 
+````markdown
 <div align="center">
   <img src="https://img.shields.io/badge/UI%2FUX-Spotify_Clone-1ED760?style=for-the-badge&logo=spotify&logoColor=white" alt="Spotify UI" />
   <img src="https://img.shields.io/badge/Data_API-Apple_Music-FA243C?style=for-the-badge&logo=apple-music&logoColor=white" alt="Apple Music API" />
@@ -47,7 +48,7 @@ Diferente de clones comuns que apenas tocam prévias de APIs, este é um **Playe
 
 ## 📂 Estrutura do Projeto
 
-
+```bash
 /spotify-clone
 │
 ├── index.html        # Estrutura principal e Modal
@@ -58,7 +59,7 @@ Diferente de clones comuns que apenas tocam prévias de APIs, este é um **Playe
 │
 ├── /mp3              # Seus arquivos de áudio (ex: 3350001.mp3)
 └── /assets           # Sons de sistema (end.mp3) e imagens locais
-
+````
 
 ## 🚀 Como Executar
 
@@ -93,10 +94,10 @@ O projeto já vem configurado com 18 playlists temáticas mapeadas:
 12. **2007** (Hits daquele ano)
 13. **Comerciais** (Clássicos da TV)
 14. **Summertime** (Surf Music/Oldies)
-15. **Sertanejo** (Sertanejo Universitário)
+15. **Sertanejo** (Modão e Universitário)
 16. **Pagode 90** (Clássicos do Pagode)
 17. **Churrasco** (Samba e Pagode)
-18. **Saloon** (Country Classic e Rock)
+18. **Saloon** (Country Classic)
 
 ## 📝 Como adicionar novas músicas
 
@@ -117,3 +118,5 @@ O sistema usa um mapeamento inteligente em `songs.js`.
 
 Desenvolvido com 💚 e muito código.
 
+```
+```
