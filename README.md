@@ -10,8 +10,8 @@
 
 > Um player de música web sofisticado que une a performance de arquivos locais com a riqueza de metadados da Apple Music API, apresentando um visualizador de áudio em tempo real.
 
-![Preview do Projeto](https://via.placeholder.com/1200x600?text=Spotify+Clone+Preview+Dashboard)
-*(Substitua este link por um print real ou GIF do seu projeto rodando)*
+
+
 
 ## 📖 Sobre o Projeto
 
