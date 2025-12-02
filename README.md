@@ -105,18 +105,17 @@ O sistema usa um mapeamento inteligente em `songs.js`.
 
 1.  Adicione o arquivo MP3 na pasta `/mp3` (ex: `99999.mp3`).
 2.  No `songs.js`, adicione o objeto:
-    ```javascript
+  
     {
         file: "99999", // Nome do arquivo sem .mp3
         query: "Nome do Artista Nome da Musica", // O que buscar na Apple para a capa
         playlistId: 1 // ID da playlist onde ela vai aparecer
     }
-    ```
+ 
 3.  O Player fará o resto automaticamente (buscará capa, nome oficial e duração).
 
 -----
 
 Desenvolvido com 💚 e muito código.
 
-```
-```
+
