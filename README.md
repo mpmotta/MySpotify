@@ -1,5 +1,5 @@
 
-````markdown
+
 <div align="center">
   <img src="https://img.shields.io/badge/UI%2FUX-Spotify_Clone-1ED760?style=for-the-badge&logo=spotify&logoColor=white" alt="Spotify UI" />
   <img src="https://img.shields.io/badge/Data_API-Apple_Music-FA243C?style=for-the-badge&logo=apple-music&logoColor=white" alt="Apple Music API" />
