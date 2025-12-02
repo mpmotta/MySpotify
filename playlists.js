@@ -27,7 +27,66 @@ const playlistsData = [
     {
         id: 6,
         title: "Garagem",
-        // Pexels: Instrumentos musicais / Vibe Rock
         cover: "assets/garage.jpeg"
+        },
+    {
+        id: 7,
+        title: "Hollywood",
+        cover: "assets/hollywood.jpeg"
+        },
+    {
+        id: 8,
+        title: "Oldies",
+        cover: "assets/lounge.jpeg"
+        },
+    {
+        id: 9,
+        title: "Soft",
+        cover: "assets/soft.jpeg"
+        },
+    {
+        id: 10,
+        title: "Rails",
+        cover: "assets/rails.jpeg"
+        },
+    {
+        id: 11,
+        title: "POP",
+        cover: "assets/pop.png"
+        },
+    {
+        id: 12,
+        title: "2007",
+        cover: "assets/2007.jpeg"
+    },
+    {
+        id: 13,
+        title: "Comerciais",
+        cover: "assets/Comercial.jpeg"
+        },
+    {
+        id: 14,
+        title: "Summertime",
+        cover: "assets/summertime.jpeg"
+    },
+    {
+        id: 15,
+        title: "Sertanejo",
+        cover: "assets/sertanejo.jpg"
+    },
+    {
+        id: 16,
+        title: "Pagode 90",
+        cover: "assets/pagode90.jpeg"
+     },
+    {
+        id: 17,
+        title: "Churrasco",
+        cover: "assets/churrasco.jpg"
+        },
+    {
+        id: 18,
+        title: "Saloon",
+        cover: "assets/saloon.jpg"
     }
 ];
