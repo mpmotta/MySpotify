@@ -158,7 +158,6 @@ const songsData = [
     { file: "3390006", query: "Hot Chelle Rae Tonight Tonight", playlistId: 10 },
     { file: "3390019", query: "GAYLE abcdefu", playlistId: 10 },
     { file: "3390020", query: "Lady Gaga, Bruno Mars Die With A Smile", playlistId: 10 },
-    { file: "3390006", query: "Hot Chelle Rae Tonight Tonight", playlistId: 10 },
     { file: "3390021", query: "Alex Warren Ordinary", playlistId: 10 },
  
 
